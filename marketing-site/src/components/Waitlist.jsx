@@ -22,14 +22,14 @@ export default function Waitlist() {
         {submitted ? (
           <p className="text-mint text-sm font-medium">You're on the list — we'll be in touch.</p>
         ) : (
-          <form onSubmit={handleSubmit} className="flex gap-3 max-w-md mx-auto">
+          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input
               type="email"
               required
               placeholder="you@company.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 bg-ink border border-panelborder rounded-lg px-4 py-2.5 text-sm outline-none focus:border-mint/60"
+              className="min-w-0 flex-1 bg-ink border border-panelborder rounded-lg px-4 py-2.5 text-sm outline-none focus:border-mint/60"
             />
             <button className="btn-primary whitespace-nowrap">Join the waitlist</button>
           </form>
