@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0c0f"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.06"/>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <circle cx="600" cy="60" r="260" fill="#3ee6b0" opacity="0.08"/>
+  <g transform="translate(90,120)">
+    <circle cx="17" cy="17" r="16" stroke="#3ee6b0" stroke-width="2.2" fill="none"/>
+    <path d="M1 17h32M17 1c4.3 4.3 6.6 9.9 6.6 16S21.3 33.1 17 37.4C12.7 33.1 10.4 27.5 10.4 21.4S12.7 8.7 17 1z" stroke="#3ee6b0" stroke-width="2.2" fill="none"/>
+    <text x="46" y="27" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#f1f5f9">Microlink</text>
+  </g>
+  <text x="90" y="290" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#f1f5f9">Infrastructure for</text>
+  <text x="90" y="350" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#f1f5f9">production machine learning</text>
+  <text x="90" y="410" font-family="Arial, sans-serif" font-size="22" fill="#8b93a1">Build, deploy, serve, observe, and operate ML systems</text>
+  <text x="90" y="442" font-family="Arial, sans-serif" font-size="22" fill="#8b93a1">from one engineering platform.</text>
+</svg>

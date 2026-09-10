@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ink text-slate-100 antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-panel border border-panelborder rounded-xl;
+  }
+  .card-interactive {
+    @apply card transition duration-200 hover:border-mint/30 hover:-translate-y-0.5 hover:shadow-glow;
+  }
+  .btn-primary {
+    @apply bg-mint text-ink font-semibold rounded-lg px-5 py-2.5 text-sm hover:opacity-90 transition;
+  }
+  .btn-link {
+    @apply text-mint font-semibold text-sm hover:underline;
+  }
+  .label-eyebrow {
+    @apply text-xs uppercase tracking-widest text-muted;
+  }
+  .section {
+    @apply max-w-6xl mx-auto px-5 py-14 sm:px-8 sm:py-20;
+  }
+}
